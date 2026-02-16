@@ -6,12 +6,12 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 const photos = [
-  { src: "/images/image.1.jpeg", caption: "Laughing together" },
-  { src: "/images/image.2.jpeg", caption: "Birthday celebrations" },
-  { src: "/images/image.3.jpeg", caption: "Sunset moments" },
-  { src: "/images/image.4.jpeg", caption: "Cozy evenings" },
-  { src: "/images/image.1.jpeg", caption: "Spring adventures" },
-  { src: "/images/image.2.jpeg", caption: "Sweet treats" },
+  { src: "/images/image1.jpeg", caption: "Laughing together" },
+  { src: "/images/image2.jpeg", caption: "Birthday celebrations" },
+  { src: "/images/image3.jpeg", caption: "Sunset moments" },
+  { src: "/images/image4.jpeg", caption: "Cozy evenings" },
+  { src: "/images/image1.jpeg", caption: "Spring adventures" },
+  { src: "/images/image2.jpeg", caption: "Sweet treats" },
 ];
 
 const rotations = [-3, 2, -2, 3, -1, 2];
